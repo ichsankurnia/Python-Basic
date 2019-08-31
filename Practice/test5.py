@@ -19,7 +19,7 @@ for i in mutia:
     # print(i)
     total = total + i
 
-print(total)
+print("Sum of value index: ", total)
 
 print("Programming","Essentials","in", sep="***", end="...")
 print("Python")
