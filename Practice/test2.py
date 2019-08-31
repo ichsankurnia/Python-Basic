@@ -39,22 +39,24 @@ def getEventsOrder(team1, team2, events1, events2):
         print(menit)
 
         print(a)
-    # return a
-    print(result)
+
     return result
 
 if __name__=='__main__':
-    team1 = input()
-    team2 = input()
+    print("Simple Program to Sorting Events in a Football Match \n")
+    print("There are 4 possible events")
 
-    events1_count = int(input().strip())
+    team1 = input("TEAM1 NAME: ")
+    team2 = input("TEAM2 NAME: ")
+
+    events1_count = int(input("Number of events for TEAM1 in the match: ").strip())
     events1 = []
 
     for _ in range(events1_count):
         events1_item = input()
         events1.append(events1_item)
 
-    events2_count = int(input().strip())
+    events2_count = int(input("Number of events for TEAM1 in the match: ").strip())
     events2 = []
 
     for _ in range(events2_count):
