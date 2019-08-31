@@ -9,7 +9,7 @@ def geserString(s, geserKiri, geserKanan):
 
 # Driver program
 if __name__ == "__main__":
-    s = input("Masukan angka yang ingin digeser: ")
+    s = input("Masukan angka/string yang ingin digeser: ")
     l = int(input("Masukan jumlah geser kekiri: "))
     r = int(input("Masukan jumlah geser kekanan: "))
 
