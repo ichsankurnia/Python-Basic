@@ -1,0 +1,7 @@
+{
+    "number": [
+    {"nama": "Mutia", "skill": "Program", "grade": 90},
+    {"nama": "Shafira", "skill": "Coding", "grade": 95},
+    {"nama": "Chairunisa", "skill": "Gabut", "grade": 80}
+    ]
+}
