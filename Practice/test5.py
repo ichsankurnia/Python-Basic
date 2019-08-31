@@ -20,3 +20,7 @@ for i in mutia:
     total = total + i
 
 print(total)
+
+print("Programming","Essentials","in", sep="***", end="...")
+print("Python")
+

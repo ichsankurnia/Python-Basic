@@ -45,7 +45,7 @@ def getEventsOrder(team1, team2, events1, events2):
 if __name__=='__main__':
     print("Simple Program to Sorting Events in a Football Match \n")
     print("There are 4 possible events, Goal (G), Yellow Card (Y), Red Card (R), Subtitution (S)")
-    print("Writing format, ex: team1= /"Liverpool/" with events record: \n events1=[/"Firmino 12 G/", /"Henderson 45+2 Y/"]")
+    print("Writing format, ex: Team1= /"Liverpool/" with events record: \n events1=[/"Firmino 12 G/", /"Henderson 45+2 Y/"]")
     print("PlayerName, Minutes, Events")
 
     team1 = input("TEAM1 NAME: ")
@@ -55,14 +55,14 @@ if __name__=='__main__':
     events1 = []
 
     for _ in range(events1_count):
-        events1_item = input()
+        events1_item = input("Events for Team1: ")
         events1.append(events1_item)
 
     events2_count = int(input("Number of events for TEAM1 in the match: ").strip())
     events2 = []
 
     for _ in range(events2_count):
-        events2_item = input()
+        events2_item = input("Events for Team2: ")
         events2.append(events2_item)
 
     result = getEventsOrder(team1, team2, events1, events2)
