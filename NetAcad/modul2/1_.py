@@ -24,4 +24,3 @@ rem = rem % 10 ⇒  rem %= 10
 j = j - (i + var + rem) ⇒  j -= (i + var + rem)
 x = x ** 2 ⇒  x **= 2
 '''
-
