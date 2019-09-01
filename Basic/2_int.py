@@ -16,3 +16,5 @@ print(str(math.pi) + " " + str(math.e)) #kalau di java & C# println/WriteLine(ma
 print(math.pi," ",math.e) #java & C# ("angka " + 10 + " dan " + 20)
 b="5.5"
 print(10+float(b))
+
+print(2 ** 3, 2 ** 3., 2. ** 3, 2. ** 3.) 	# 8 8.0 8.0 8.0
