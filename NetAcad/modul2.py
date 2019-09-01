@@ -9,9 +9,19 @@ print(2**2**3, 2*3%5)				# 256, 1
 print(25%13, 10% 15)				# 12 10
 print(21.5326565656//2)				# 10.0
 
+print()
 print("Section 2 Summary")
 
 # Section 2 Summary
 print((2 ** 4), (2 * 4.), (2 * 4)) 				# 16 8.0 8
 print((-2 / 4), (2 / 4), (2 // 4), (-2 // 4))	# -0.5 0.5 0 -1
 print((2 % -4), (2 % 4), (2 ** 3 ** 2))			# -2 2 512s
+
+'''
+i = i + 2 * j ⇒  i += 2 * j
+var = var / 2 ⇒  var /= 2
+rem = rem % 10 ⇒  rem %= 10
+j = j - (i + var + rem) ⇒  j -= (i + var + rem)
+x = x ** 2 ⇒  x **= 2
+'''
+
