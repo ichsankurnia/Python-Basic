@@ -14,7 +14,7 @@ def function(kata):
             s.add(char)
             string.append(char)
 
-    return ''.join(string)        
+    return ''.join(string)
 
 
 if __name__ == '__main__':
