@@ -26,7 +26,7 @@ array = [{"nama" : "Mutia", "skill" : "Program", "grade" : 90},
         {"nama" : "Shafira", "skill" : "Coding", "grade" : 95,},
         {"nama" : "Chairunisa", "skill" : "Gabut", "grade" : 80,}]
 
-with open("file.csv", "a") as csvfile:
+with open("file.csv", "a") as csvfile: # to delete all rows with new rows documente replace "a" to "W"
         fields = ["nama", "skill", "grade"]
         writer = csv.DictWriter(csvfile, fieldnames = fields)
 
