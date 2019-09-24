@@ -46,7 +46,7 @@ def save_images(URLs, directory):
 
     for i, url in enumerate(URLs):
         savePath = os.path.join(directory, '{:06}.jpg'.format(i))
-        print("Downloading {}/{} ========================== {}%".format(URLs.index(url)+1, len(URLs), (URLs.index(url)+1)*100/len(URLs)))
+        print("Downloading... {}/{} ========================== {}%".format(URLs.index(url)+1, len(URLs), (URLs.index(url)+1)*100/len(URLs)))
 
         try:
             ulib.urlretrieve(url, savePath)
