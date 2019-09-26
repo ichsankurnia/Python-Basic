@@ -43,3 +43,41 @@ Expected output:
 1
 steps = 4
 """
+
+number = int(input("Masukan jumlah angka yang ingin di urut: "))
+total_steps = 0
+steps = 0
+current_number = 0
+
+# while number:
+# 	current_number = number/2
+# 	print(current_number)
+
+# 	if current_number == 1:
+# 		break
+
+# 	number /= 2
+
+for i in range(number):
+	if number%2 == 0:
+		number /= 2
+
+		total_steps += 1
+		print(number)
+
+		if number == 1:
+			break
+	else:
+		number = number*3 + 1
+		total_steps += 1
+		print(number)
+		
+		number /= 2
+		print(number)
+		total_steps += 1
+
+		if number == 1:
+			break
+
+
+print("Total of steps: ", total_steps)
