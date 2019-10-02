@@ -2,7 +2,7 @@ def function(n):
 	
 	result = [n]
 	
-	for i in range(n-1):
+	for i in range(n):
 		n = n/2
 		if n > 0.4:
 			result.append(n)

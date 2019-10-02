@@ -1,11 +1,13 @@
-""" N adalah oanjang karakter
+"""
+N adalah oanjang karakter
 Input N : 5
 Input nilai : 1
 Hasil 00100
 
 N: 7
 nilai : 12.35
-Hasil 01235 """
+Hasil 01235
+"""
 
 def function(n, nilai):
 
@@ -13,7 +15,7 @@ def function(n, nilai):
 	
 	nilai = int(nilai * 100)
 
-	for i in range(n-len(nilai)):
+	for i in range(n-len(str(nilai))):
 		string += "0"
 
 	string += str(nilai)
